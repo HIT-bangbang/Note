@@ -17,6 +17,9 @@ ubuntu 的用户主和用户组
 
 	sudo usermod -a -G dialout user_name
 
+	当前用户：
+	sudo usermod -a -G dialout $USER
+
 　　这样，重启系统后，用户“user_name”就会加入dialout组了，之后我们就能自由自在地访问ttyS设备了，
 
 
