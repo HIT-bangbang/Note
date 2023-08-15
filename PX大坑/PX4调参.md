@@ -31,9 +31,12 @@
 
 下面的设置是适配kakuteH7的：
 
-修改tel1 mode 为onboard
+MAV_0_CONDIF = TELE 1 设置telem 1 作为mavlink的串口
+
+MAV_0_mode = onboard 设置 mavlink要回传的信息
 
 修改电调映射顺序为betaflight/cleanflight（这个根据实际情况来）
+MOT_ORDERING = PX4或者betaflight/cleanflight
 
 修改下面的一些玄学东西：
 

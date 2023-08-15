@@ -27,6 +27,11 @@ cd PX4-Autopilot
 git submodule update --init --recursive
 
 
+编译：
+
+make holybro_kakuteh7_default
+
+
 22.04报错
 
 
