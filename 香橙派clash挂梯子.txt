@@ -1,0 +1,22 @@
+修改 /etc/environment 文件 
+
+原来文件内容为:
+
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+
+在后面添加：
+
+export http_proxy="http://127.0.0.1:7890"
+export https_proxy="http://127.0.0.1:7890"
+export no_proxy="http://localhost, http://127.0.0.1"
+
+安装clash
+
+修改配置文件/etc/poxychains4 
+
+最后面改为
+
+# socks4 	127.0.0.1 9050
+socks5 127.0.0.1 7891
+
+启动clash 完成
