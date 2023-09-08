@@ -61,3 +61,7 @@ sudo apt install openjdk-11-jdk
 
 现在，jMAVSim已经可以正常跑起来了，但是输入command takeoff 不能起飞。需要开一下QGC地面站，连接之后就可以正常起飞降落了。
 
+
+gazebo 仿真
+
+FAILED: external/Stamp/sitl_gazebo-classic/sitl_gazebo-classic-configure 

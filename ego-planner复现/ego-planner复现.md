@@ -8,7 +8,13 @@ realsense
 
 https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md
 
-仓库中自带的3rd_party.zip包中有ceres 2.0.0 rc1版本和glog。ceres可以直接安装2.0.0正式版，glog推荐直接apt安装，不用源码编译（我的电脑上不知道为什么已经装好了）
+
+
+仓库中自带的3rd_party.zip包中有ceres 2.0.0 rc1版本和glog(ceres需要)。ceres可以直接安装2.0.0正式版，glog推荐直接apt安装，不用源码编译（我的电脑上不知道为什么已经装好了）
+
+ceres官方安装教程：
+
+    http://ceres-solver.org/installation.html#linux
 
 **注意** 该仓库里面带的哪个VINS-fusion是修改过的，
 
