@@ -51,7 +51,7 @@ cd到存放驱动的目录
     sudo chmod 777 NVIDIA-Linux-x86_64-515.65.01.run   #给你下载的驱动赋予可执行权限，才可以安装
     sudo ./NVIDIA-Linux-x86_64-515.65.01.run –no-opengl-files   #安装
 
-–no-opengl-files 只安装驱动文件，不安装OpenGL文件。笔记本不加有可能出现循环登录，也就是loop login。但是我这个电脑没问题，加不加都行
+–no-opengl-files 只安装驱动文件，不安装OpenGL文件。笔记本不加有可能出现循环登录，也就是loop login。但是要用issac gim的话，或者一些仿真软件一定要装的。
 
     1.The distribution-provided pre-install script failed! Are you sure you want to continue?
     选择continue installation

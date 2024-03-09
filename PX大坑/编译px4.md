@@ -17,14 +17,14 @@ make distclean
 make submodulesclean
 
 
-也可以直接递归克隆，但是很容易网络问题
-git clone https://github.com/PX4/PX4-Autopilot.git --recursive
+    也可以直接递归克隆，但是很容易网络问题
+    git clone https://github.com/PX4/PX4-Autopilot.git --recursive
 
-可以先将PX4文件克隆下来，不去克隆子项目
-git clone https://github.com/PX4/PX4-Autopilot.git
-然后切换到PX4文件夹，继续克隆子项目,不断执行git submodule update --recursive直到不出现失败提示
-cd PX4-Autopilot
-git submodule update --init --recursive
+    可以先将PX4文件克隆下来，不去克隆子项目
+    git clone https://github.com/PX4/PX4-Autopilot.git
+    然后切换到PX4文件夹，继续克隆子项目,不断执行git submodule update --recursive直到不出现失败提示
+    cd PX4-Autopilot
+    git submodule update --init --recursive
 
 
 编译：
